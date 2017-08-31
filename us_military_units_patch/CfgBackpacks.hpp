@@ -100,7 +100,7 @@
 		mapSize = 2;
 		class TransportMagazines
 		{
-			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
 				magazine = "150Rnd_762x51_Box";		
 				count = 1;

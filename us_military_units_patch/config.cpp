@@ -48,8 +48,3 @@ class CfgVehicles
 {
 	#include "CfgBackpacks.hpp"
 };
-class cfgMods
-{
-	author = "timb120";
-	timepacked = "1461269850";
-};
