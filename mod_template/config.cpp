@@ -7,8 +7,8 @@ class CfgPatches
 	class us_military_units_patch
 	{
 		name = "USM Mod Patch and Fix";
-		units[] = {};							// Backpacks (are actually cfgvehicles)
-		weapons[] = {};							//Helemts, weapons, vests, items (cfgweapons))};
+		units[] = {};							// Backpacks (are actually cfgvehicles), vests ( actually cfgvehicles
+		weapons[] = {};							//Helemts, weapons, , items (cfgweapons))};
 		requiredVersion = 1.0;
 		requiredAddons[] = {"us_military_units"};
 		author = "kOepi";
