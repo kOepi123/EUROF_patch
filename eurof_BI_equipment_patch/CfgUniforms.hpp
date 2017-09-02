@@ -1,14 +1,11 @@
 // this file handles uniform and vests { scopearsenal = 0; };
 
-		class UniformItem: InventoryItem_Base_F {};
-		class Uniform_Base: ItemCore {};
-		class U_BasicBody: Uniform_Base {};
 		class U_B_CombatUniform_mcam: Uniform_Base { scopearsenal = 0; };
 		class U_B_CombatUniform_mcam_tshirt: Uniform_Base { scopearsenal = 0; };
 		class U_B_CombatUniform_mcam_vest: Uniform_Base { scopearsenal = 0; };
-		class U_B_GhillieSuit: Uniform_Base { scopearsenal = 0; };
+//		class U_B_GhillieSuit: Uniform_Base { scopearsenal = 0; };
 		class U_B_HeliPilotCoveralls: Uniform_Base { scopearsenal = 0; };
-		class U_B_Wetsuit: Uniform_Base { scopearsenal = 0; };
+//		class U_B_Wetsuit: Uniform_Base { scopearsenal = 0; };
 		class U_O_CombatUniform_ocamo: Uniform_Base { scopearsenal = 0; };
 		class U_O_GhillieSuit: Uniform_Base { scopearsenal = 0; };
 		class U_O_PilotCoveralls: Uniform_Base { scopearsenal = 0; };
@@ -44,7 +41,7 @@
 		class U_I_HeliPilotCoveralls: Uniform_Base { scopearsenal = 0; };
 		class U_I_GhillieSuit: Uniform_Base { scopearsenal = 0; };
 		class U_I_OfficerUniform: Uniform_Base { scopearsenal = 0; };
-		class U_I_Wetsuit: Uniform_Base { scopearsenal = 0; };
+//		class U_I_Wetsuit: Uniform_Base { scopearsenal = 0; };
 		class U_Competitor: Uniform_Base { scopearsenal = 0; };
 		class U_MillerBody: Uniform_Base { scopearsenal = 0; };
 		class U_KerryBody: Uniform_Base { scopearsenal = 0; };
@@ -98,7 +95,7 @@
 		class U_B_CTRG_1: Uniform_Base { scopearsenal = 0; };
 		class U_B_CTRG_2: Uniform_Base { scopearsenal = 0; };
 		class U_B_CTRG_3: Uniform_Base { scopearsenal = 0; };
-		class U_B_survival_uniform: Uniform_Base {};
+//		class U_B_survival_uniform: Uniform_Base {};
 		class U_I_G_Story_Protagonist_F: Uniform_Base { scopearsenal = 0; };
 		class U_I_G_resistanceLeader_F: Uniform_Base { scopearsenal = 0; };
 		class U_C_Journalist: Uniform_Base { scopearsenal = 0; };
@@ -125,23 +122,23 @@
 		class U_C_Driver_1_red: Uniform_Base { scopearsenal = 0; };
 		class U_C_Driver_1_yellow: Uniform_Base { scopearsenal = 0; };
 		class U_C_Driver_1_orange: Uniform_Base { scopearsenal = 0; };
-		class U_B_FullGhillie_lsh: Uniform_Base { scopearsenal = 0; };
-		class U_B_FullGhillie_sard: Uniform_Base { scopearsenal = 0; };
-		class U_B_FullGhillie_ard: Uniform_Base { scopearsenal = 0; };
+//		class U_B_FullGhillie_lsh: Uniform_Base { scopearsenal = 0; };
+//		class U_B_FullGhillie_sard: Uniform_Base { scopearsenal = 0; };
+//		class U_B_FullGhillie_ard: Uniform_Base { scopearsenal = 0; };
 		class U_O_FullGhillie_lsh: Uniform_Base { scopearsenal = 0; };
 		class U_O_FullGhillie_sard: Uniform_Base { scopearsenal = 0; };
 		class U_O_FullGhillie_ard: Uniform_Base { scopearsenal = 0; };
-		class U_I_FullGhillie_lsh: Uniform_Base { scopearsenal = 0; };
-		class U_I_FullGhillie_sard: Uniform_Base { scopearsenal = 0; };
+//		class U_I_FullGhillie_lsh: Uniform_Base { scopearsenal = 0; };
+//		class U_I_FullGhillie_sard: Uniform_Base { scopearsenal = 0; };
 		class U_I_FullGhillie_ard: Uniform_Base { scopearsenal = 0; };
 
 // ----------------- dlc content below		
-/*		
+
 	class U_B_T_Soldier_F: Uniform_Base { scopearsenal = 0;};
 	class U_B_T_Soldier_AR_F: Uniform_Base { scopearsenal = 0;};
 	class U_B_T_Soldier_SL_F: Uniform_Base { scopearsenal = 0;};
-	class U_B_T_Sniper_F: Uniform_Base { scopearsenal = 0;};
-	class U_B_T_FullGhillie_tna_F: Uniform_Base { scopearsenal = 0;};
+//	class U_B_T_Sniper_F: Uniform_Base { scopearsenal = 0;};
+//	class U_B_T_FullGhillie_tna_F: Uniform_Base { scopearsenal = 0;};
 	class U_B_CTRG_Soldier_F: Uniform_Base { scopearsenal = 0;};
 	class U_B_CTRG_Soldier_2_F: Uniform_Base { scopearsenal = 0;};
 	class U_B_CTRG_Soldier_3_F: Uniform_Base { scopearsenal = 0;};
@@ -176,4 +173,8 @@
 	class U_B_CTRG_Soldier_urb_1_F: Uniform_Base { scopearsenal = 0;};
 	class U_B_CTRG_Soldier_urb_2_F: Uniform_Base { scopearsenal = 0;};
 	class U_B_CTRG_Soldier_urb_3_F: Uniform_Base { scopearsenal = 0;};
-*/
+	
+	
+	class U_C_Poloshirt_redwhite: Uniform_Base { scopearsenal = 0;};
+	class U_C_Driver_1_white: Uniform_Base { scopearsenal = 0;};
+	class U_B_survival_uniform: Uniform_Base { scopearsenal = 0;};

@@ -3,7 +3,7 @@
 // 		vehicleClass = "Backpacks";
 //{ weaponPoolAvailable  = 0; };
 
-	class NATO_Box_Base: ReammoBox_F {};
+/*	class NATO_Box_Base: ReammoBox_F {};
 	class EAST_Box_Base: ReammoBox_F {};
 	class Box_NATO_Wps_F: NATO_Box_Base { scopearsenal = 0; };
 	class Box_NATO_WpsSpecial_F: NATO_Box_Base { scopearsenal = 0; };
@@ -38,6 +38,8 @@
 	class I_supplyCrate_F: B_supplyCrate_F { scopearsenal = 0; };
 	class IG_supplyCrate_F: ReammoBox_F { scopearsenal = 0; };
 	class C_supplyCrate_F: ReammoBox_F { scopearsenal = 0; };
+*/	
+	
 	class B_AssaultPack_Base: Bag_Base {};
 	class B_AssaultPack_khk: B_AssaultPack_Base { scopearsenal = 0; };
 	class B_AssaultPack_dgtl: B_AssaultPack_Base { scopearsenal = 0; };
@@ -86,14 +88,7 @@
 	class B_BergenC_red: B_BergenC_Base { scopearsenal = 0; };
 	class B_BergenC_grn: B_BergenC_Base { scopearsenal = 0; };
 	class B_BergenC_blu: B_BergenC_Base { scopearsenal = 0; };
-	class B_Parachute: Bag_Base {};
 	
-/*
-	class GroundWeaponHolder: WeaponHolder {};
-	class GroundWeaponHolder_Scripted: GroundWeaponHolder {};
-	class WeaponHolderSimulated: ThingX {};
-	class WeaponHolderSimulated_Scripted: WeaponHolderSimulated {};
-*/	
 	class B_FieldPack_oli: B_FieldPack_Base { scopearsenal = 0; };
 	class B_Carryall_oli: B_Carryall_Base { scopearsenal = 0; };
 	class G_AssaultPack: B_AssaultPackG { scopearsenal = 0; };
@@ -173,8 +168,7 @@
 	class B_TacticalPack_oli_AAR: B_TacticalPack_oli { scopearsenal = 0; };
 	class B_BergenG_TEST_B_Soldier_overloaded: B_Carryall_oli { scopearsenal = 0; };
 	
-	
-	
+//	class B_Parachute: Bag_Base { class WeaponSlotsInfo : WeaponSlotsInfo { mass = 434; }; };			// this line makes the parachute dissappear for some reason
 	
 //	DLC content etc. --------------------------------------------------------------------
 

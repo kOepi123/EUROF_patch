@@ -8,6 +8,7 @@ class CfgPatches
 						requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Weapons_F_Acc", "A3_Sounds_F_Mark" };
 						units[] = 
 						{
+							"B_Parachute"							
 //							"I_Mortar_01_weapon_F",	"I_Mortar_01_support_F", "I_HMG_01_weapon_F", "I_HMG_01_support_F", "GMG_TriPod","I_GMG_01_weapon_F"
 						};
 						weapons[] = // scope = 0 weapon seem not to go in here, scope = 1 dont seem to go in here either, base clsses can go in here
@@ -71,11 +72,30 @@ class CfgWeapons
 	class Laserdesignator_02: Laserdesignator{};
 	class Laserdesignator_03: Laserdesignator{};
 	
+	class WeaponHolder;
+	class Item_Base_F: WeaponHolder {};
+	class Headgear_Base_F: WeaponHolder {};
+	class Vest_Base_F: WeaponHolder {};				// had some content, maybe important?
+	class Headgear_H_HelmetB: Headgear_Base_F { vehicleClass = "ItemsHeadgear"; };
+	class Vest_Camo_Base: Item_Base_F {vehicleClass = "ItemsVests"; };							// needs a vehicles class set, like headgearhelmet
+	class Vest_NoCamo_Base: Item_Base_F {vehicleClass = "ItemsVests"; };
+	
+	class Uniform_Base: Item_Base_F {vehicleClass = "ItemsUniforms"; };
+	
+	class Bag_Base;
+	class B_Parachute: Bag_Base { class WeaponSlotsInfo : WeaponSlotsInfo { mass = 434; }; };			// this line makes the parachute dissappear for some reason
+	
+				#include "CfgUniforms.hpp"			// works
+				#include "CfgVests.hpp"				// works
 				#include "CfgWeapons.hpp"			// works fine, 2 weapons over
 };
 
 				#include "CfgMagazines.hpp"			// does not have any effect for some reason, creates no error
+
 				
+				
+//class Item_Base_F;
+//class InventoryItem_Base_F;				
 class CfgVehicles
 {
 /*	
@@ -90,25 +110,37 @@ class CfgVehicles
 	class All;
 	class Strategic;
 //	class WeaponHolder;
+//	class H_HelmetB;
+//	class Headgear_Base_F;
+//	class Item_Base_F: itemCore {};
+//	class InventoryItem_Base_F: Item_Base_F {};
 
+//	class Vest_Base_F;
 */
 //	class Default;
 //	class ItemCore: Default {};
-		
-	class ReammoBox_F;
-	class ThingX;
-	class Item_Base_F;
-//	class InventoryItem_Base_F;
-	class ContainerSupply;
-//	class Headgear_Base_F;
-	class H_HelmetB;
-	class Vest_Base_F;
-//	class Vest_Camo_Base;
-//	class Vest_NoCamo_Base;
+//	class ReammoBox_F;
+//	class ThingX;
+
+	class WeaponHolder;
+	class Item_Base_F: WeaponHolder {};
+	class Headgear_Base_F: WeaponHolder {};
+	class Vest_Base_F: WeaponHolder {};				// had some content, maybe important?
+	class Headgear_H_HelmetB: Headgear_Base_F { vehicleClass = "ItemsHeadgear"; };
+	
+//	class ContainerSupply;
+
+	class Vest_Camo_Base: Item_Base_F {vehicleClass = "ItemsVests"; };							// needs a vehicles class set, like headgearhelmet
+	class Vest_NoCamo_Base: Item_Base_F {vehicleClass = "ItemsVests"; };
 	class Bag_Base;
+//	class UniformItem: InventoryItem_Base_F {vehicleClass = "ItemsUniforms";};
+//	class U_BasicBody: Uniform_Base {};
+//	class ItemCore;
+
+//	class B_Parachute: B_Carryall_oli { scopearsenal = 1; class ItemInfo { mass = 434; }; };
 					
-				#include "CfgBackpacks.hpp"
-//				#include "CfgVests.hpp"
-//				#include "CfgUniforms.hpp"
+				#include "CfgBackpacks.hpp"				// works
+//				#include "CfgVests.hpp"					// has no effect
+//				#include "CfgUniforms.hpp"				// does not work
 
 };
