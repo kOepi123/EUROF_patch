@@ -154,3 +154,29 @@
 		};
 	};
 */
+	
+// vanilladjustments
+	class Weapon_Bag_Base: Bag_Base {};
+/*	class B_Mortar_01_support_F: Bag_Base {
+		mass = 467.5;
+	};
+	class B_Mortar_01_weapon_F: Weapon_Bag_Base { 
+		mass = 467.5; 
+	};
+*/	
+	class I_Mortar_01_support_F: Bag_Base {
+		mass = 467.5;
+	};
+	class I_Mortar_01_weapon_F: Weapon_Bag_Base { 
+		mass = 467.5; 
+	};
+	
+// test to see if I can remove those two mortar backpacks	
+	
+/*	class B_Mortar_01_support_F: Bag_Base { 
+		scopearsenal = 0;
+	};
+	class B_Mortar_01_weapon_F: Weapon_Bag_Base { 
+		scopearsenal = 0;
+	};
+*/

@@ -64,7 +64,7 @@
 		class U_BG_Guerilla3_1: Uniform_Base { scopearsenal = 0; };
 		class U_BG_Guerilla3_2: Uniform_Base { scopearsenal = 0; };
 		class U_BG_leader: Uniform_Base { scopearsenal = 0; };
-		class U_OG_Guerilla1_1: Uniform_Base { scope = 1; };					// for testing purpose enabled
+		class U_OG_Guerilla1_1: Uniform_Base { scope = 2; };					// for testing purpose enabled
 		class U_OG_Guerilla2_1: Uniform_Base { scopearsenal = 0; };
 		class U_OG_Guerilla2_2: Uniform_Base { scopearsenal = 0; };
 		class U_OG_Guerilla2_3: Uniform_Base { scopearsenal = 0; };
@@ -178,3 +178,7 @@
 	class U_C_Poloshirt_redwhite: Uniform_Base { scopearsenal = 0;};
 	class U_C_Driver_1_white: Uniform_Base { scopearsenal = 0;};
 	class U_B_survival_uniform: Uniform_Base { scopearsenal = 0;};
+	
+// usmilitary items
+	
+	class usm_bdu_test: Uniform_Base { scopearsenal = 0;};

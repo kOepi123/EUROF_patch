@@ -3,43 +3,6 @@
 // 		vehicleClass = "Backpacks";
 //{ weaponPoolAvailable  = 0; };
 
-/*	class NATO_Box_Base: ReammoBox_F {};
-	class EAST_Box_Base: ReammoBox_F {};
-	class Box_NATO_Wps_F: NATO_Box_Base { scopearsenal = 0; };
-	class Box_NATO_WpsSpecial_F: NATO_Box_Base { scopearsenal = 0; };
-	class Box_NATO_Ammo_F: NATO_Box_Base { scopearsenal = 0; };
-	class Box_NATO_AmmoOrd_F: NATO_Box_Base { scopearsenal = 0; };
-	class Box_NATO_Grenades_F: NATO_Box_Base { scopearsenal = 0; };
-	class Box_NATO_Support_F: NATO_Box_Base { scopearsenal = 0; };
-	class Box_East_Wps_F: EAST_Box_Base { scopearsenal = 0; };
-	class Box_East_WpsSpecial_F: EAST_Box_Base { scopearsenal = 0; };
-	class Box_East_Ammo_F: EAST_Box_Base { scopearsenal = 0; };
-	class Box_East_AmmoOrd_F: EAST_Box_Base { scopearsenal = 0; };
-	class Box_East_Grenades_F: EAST_Box_Base { scopearsenal = 0; };
-	class Box_East_Support_F: EAST_Box_Base { scopearsenal = 0; };
-	class Box_Ammo_F: ReammoBox_F { scopearsenal = 0; };
-	class Box_Wps_F: Box_Ammo_F { scopearsenal = 0; };
-	class Land_Box_AmmoOld_F: ReammoBox_F { scopearsenal = 0; };
-	class IND_Box_Base: ReammoBox_F {};
-	class Box_NATO_WpsLaunch_F: NATO_Box_Base { scopearsenal = 0; };
-	class Box_NATO_AmmoVeh_F: NATO_Box_Base { scopearsenal = 0; };
-	class Box_East_WpsLaunch_F: EAST_Box_Base { scopearsenal = 0; };
-	class Box_East_AmmoVeh_F: EAST_Box_Base { scopearsenal = 0; };
-	class Box_IND_Wps_F: IND_Box_Base { scopearsenal = 0; };
-	class Box_IND_WpsSpecial_F: IND_Box_Base { scopearsenal = 0; };
-	class Box_IND_WpsLaunch_F: IND_Box_Base { scopearsenal = 0; };
-	class Box_IND_Ammo_F: IND_Box_Base { scopearsenal = 0; };
-	class Box_IND_AmmoOrd_F: IND_Box_Base { scopearsenal = 0; };
-	class Box_IND_Grenades_F: IND_Box_Base { scopearsenal = 0; };
-	class Box_IND_Support_F: IND_Box_Base { scopearsenal = 0; };
-	class Box_IND_AmmoVeh_F: IND_Box_Base { scopearsenal = 0; };
-	class B_supplyCrate_F: ReammoBox_F { scopearsenal = 0; };
-	class O_supplyCrate_F: B_supplyCrate_F { scopearsenal = 0; };
-	class I_supplyCrate_F: B_supplyCrate_F { scopearsenal = 0; };
-	class IG_supplyCrate_F: ReammoBox_F { scopearsenal = 0; };
-	class C_supplyCrate_F: ReammoBox_F { scopearsenal = 0; };
-*/	
-	
 	class B_AssaultPack_Base: Bag_Base {};
 	class B_AssaultPack_khk: B_AssaultPack_Base { scopearsenal = 0; };
 	class B_AssaultPack_dgtl: B_AssaultPack_Base { scopearsenal = 0; };
@@ -365,8 +328,9 @@
 //	class B_Mortar_01_weapon_F: Weapon_Bag_Base { scopearsenal = 0; 			// this line seem faulty
 //	mass = 467.5; 
 //	};
+// test to see if I can remove these backpacks with usmilitary modf
 
-	
+//	class B_Mortar_01_weapon_F: Weapon_Bag_Base {};
 
 
 // ------------------------- below are autonomous weapons, weight must be heavier, it is not ( already too heavy ) ------------------------------------------
